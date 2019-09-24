@@ -1,4 +1,4 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <title>Resume Assignment</title>
@@ -7,39 +7,10 @@
     <meta name="description" content="I made this website to translate my resume into an html site">
     <meta name="keywords" content="resume, my resume, resume assignment, assignments">
 
+    <link rel="stylesheet" href="css/layout.css">
+
     <style>
-    body{
-      background-color: blanchedalmond;
-      /* background-color: rgb(255,0,0) - makes the background red */
-      /* background-color: rgb(0,0,0) - makes the background black  */
-      /* background-color: rgb(255,255,255) - makes the background white  */
-    }
-    section{
-      background-color: rgba(255,255,255,0.35);
-      /* background-color: rgba(255,255,255,0.5) - white with 50 percent opacity  */
-    }
-    h1{
-      color: darksalmon;
-    }
-    h4{
-      color: darksalmon;
-    }
-    h5{
-      color: darksalmon;
-    }
-    h4 em{
-      font-family: sans-serif;
-      text-decoration: underline;
-    }
-    li{
-      font-size: 16px;
-    }
-    ul li{
-      list-style: none;
-    }
-    ol li{
-      list-style: none;
-    }
+
     </style>
 
   </head>
@@ -47,7 +18,7 @@
   <body>
 
   <header>
-    <h1>Eli Kennedy Griswold</h1>
+    <h1 id="centerName">Eli Kennedy Griswold</h1>
   </header>
   <main>
     <address>12 Seashore Drive, Baystate, MA 09831</address>
@@ -57,28 +28,30 @@
     <img src="Images/IMG_1668(2).jpg" width="200">
 
   <section>
-    <h4>About Me</h4>
-      <p1>My name is Eli Griswold and I am a Junior at the University of Miami. I have a broad range of interests and talents, from broadcasting and writing about sports to taking photos and making music.</p1>
+    <h4 class="blue-text">About Me</h4>
+    <!-- New class for all h4's -->
+      <p id="centerIntro">My name is Eli Griswold and I am a Junior at the University of Miami. I have a broad range of interests and talents, from broadcasting and writing about sports to taking photos and making music.</p>
   </section>
 
   <section>
-    <h4>Education</h4>
+    <h4 id="rightEducation"class="blue-text">Education</h4>
       <ol>
-        <li><strong>Boston University (2017-2018)</strong> - Journalism and Film</li>
+        <li><span class="bolder"><strong>Boston University (2017-2018)</strong></span> - Journalism and Film</li>
         <li><strong>University of Miami (2018-present)</strong> - Broadcast Journalism and Motion Pictures</li>
       </ol>
   </section>
 
   <section>
-    <h4>Campus Involvement</h4>
-    <h5>BU</h5>
+    <h4 class="blue-text">Campus Involvement</h4>
+    <h5 class="green-text">BU</h5>
       <ul>
         <li><strong>Daily Free Press</strong> - Student Newspaper</li>
         <a href="https://dailyfreepress.com/">Click here to view website</a>
         <a href="https://dailyfreepress.com/blog/2017/11/01/womens-soccer-avoids-halloween-scare-picks-up-1-0-victory-in-patriot-league-quarterfinals/">Example of my work</a>
       </ul>
 
-    <h5>University of Miami</h5>
+    <h5 class="green-text">UM</h5>
+    <!-- New class for all h5's -->
       <ul>
         <li><strong>UMTV</strong> - Student Television Network</li>
         <li><strong>WVUM 90.5 FM</strong> - Play-by-Play Voice of the Hurricanes</li>
@@ -89,7 +62,7 @@
   </section>
 
   <section>
-    <h4>Work Experience</h4>
+    <h4 class="blue-text">Work Experience</h4>
       <ul>
         <li><strong>Judges Farm LLC</strong> - worked at family business, gained variety of business skills</li>
         <li><strong>Coach, Skyhawks Sports Academy</strong> - improved leadership and communication skills</li>
@@ -97,7 +70,7 @@
   </section>
 
   <section>
-    <h4><em>Technological Proficiencies</em></h4>
+    <h4 class="blue-text"><em>Technological Proficiencies</em></h4>
       <ul>
         <li><strong>Adobe Premier Pro</strong>- film editing, sound design, graphic design</li>
         <li><strong>Adobe Photoshop</strong> - photo editing</li>

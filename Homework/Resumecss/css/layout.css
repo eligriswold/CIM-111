@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+    body{
+      background-color: blanchedalmond;
+      /* background-color: rgb(255,0,0) - makes the background red */
+      /* background-color: rgb(0,0,0) - makes the background black  */
+      /* background-color: rgb(255,255,255) - makes the background white  */
+    }
+    section{
+      background-color: rgba(255,255,255,0.35);
+      /* background-color: rgba(255,255,255,0.5) - white with 50 percent opacity  */
+    }
+    h1{
+      color: darksalmon;
+      font-family: 'Dancing Script', cursive;
+      font-weight: 700; /* bolder Dancing Script */
+    }
+    h4{
+      color: darksalmon;
+    }
+    h5{
+      color: darksalmon;
+    }
+    h4{
+      font-family: sans-serif;
+    }
+    /* h4 em{
+      font-family: sans-serif;
+      text-decoration: underline;
+    } */
+    li{
+      font-size: 16px;
+    }
+    ul li{
+      list-style: circle;
+    }
+    ol li{
+      list-style: none;
+    }
+
+    #centerName{
+      text-align: center;
+    }
+
+    #centerIntro{
+      text-align: center;
+    }
+
+    #rightEducation{
+      text-align: right;
+    }
+
+    .bolder{
+      font-weight: bolder;
+      font-size: 20px;
+    }
+
+    .blue-text{
+      color: blue;
+    }
+
+    .green-text{
+      color: green;
+    }
+/* These are my 2 classes */
+
+    strong{
+      color: red;
+    }
+/* this is my example of a new CSS Property */
+
+    a{
+      color: blue;
+      text-decoration: none;
+    }
+
+    a:visited{
+      color:green;
+    }
+
+    a:hover{
+      background-color: red;
+      font-style: italic;
+    }
