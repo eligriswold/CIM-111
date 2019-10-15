@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Grid Example</title>
+
+<style media="screen">
+
+  header{
+    width: 960px;
+    height: 100px;
+    background-color: blanchedalmond;
+    margin: 0 auto;
+
+    border-width: 10px 5px 10px 5px;
+    border-style: solid;
+    border-color: black;
+  }
+
+  main{
+    width: 960px;
+    height: auto;
+    background-color: blanchedalmond;
+    margin: 0 auto;
+
+    border-width: 10px 5px 10px 5px;
+    border-style: solid;
+    border-color: black;
+  }
+  footer{
+    width: 960px;
+    height: 100px;
+    background-color: blanchedalmond;
+    margin: 0 auto;
+
+    border-width: 10px 5px 10px 5px;
+    border-style: solid;
+    border-color: black;
+  }
+
+  #grid1{
+    width: 900px;
+    height: auto;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 300px;
+    grid-template-columns: 300px 300px 300px;
+  }
+
+  #grid1 img{
+    width: 250px;
+    display: inline-block;
+    padding: 20px;
+  }
+
+  #grid2{
+    width: 900px;
+    height: auto;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 475px;
+    grid-template-columns: 300px 300px 300px;
+  }
+
+  #grid2 section img{
+    width: 250px;
+    display: inline-block;
+    padding: 20px;
+  }
+
+  #grid3{
+    width: 600px;
+    height: auto;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1 fr 1 fr;
+  }
+
+  #grid3 img{
+    width: 300px;
+    display: inline-block;
+    padding: 20px;
+  }
+
+</style>
+
+  </head>
+
+  <body>
+    <header>
+    </header>
+
+    <main>
+
+    <section id="grid1">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <img src="https://live.staticflickr.com/2790/4417015892_4e9f6e1e90_b.jpg" alt="Almonds Image">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </section>
+
+    <section id="grid2">
+      <section>
+        <h1>Almonds!</h1>
+        <ul>
+          <li>Almond Milk</li>
+          <li>Almond Butter</li>
+          <li>Toasted Almond Ice Cream</li>
+        </ul>
+      </section>
+
+      <section>
+        <img src="https://live.staticflickr.com/2790/4417015892_4e9f6e1e90_b.jpg" alt="Almonds Image">
+          <p>i love almonds omg</p>
+      </section>
+
+      <section>
+        <h1>More About Almonds</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </section>
+    </section>
+
+    <section id="grid3">
+      <img src="https://live.staticflickr.com/2790/4417015892_4e9f6e1e90_b.jpg" alt="Almonds Image">
+      <img src="https://live.staticflickr.com/2790/4417015892_4e9f6e1e90_b.jpg" alt="Almonds Image">
+    </section>
+
+    </main>
+
+    <footer>
+    </footer>
+  </body>
+
+</html>
