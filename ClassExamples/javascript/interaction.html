@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      img{
+        width: 300px;
+      }
+    </style>
+  </head>
+  <body>
+
+    <h1>Choose your team!</h1>
+    <h1 id="changeBackground">Team Blanched Almond</h1>
+    <h1 id="changeDarkSalmon">Team Dark Salmon</h1>
+
+    <ul>
+      <li id="item1" class="item">item 1</li>
+      <li id="item2" class="item">item 2</li>
+      <li id="item3" class="item">item 3</li>
+    </ul>
+
+    <p id="changeText">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript">
+
+      $(document).ready(function(){
+
+
+        $("#changeBackground").click(function(){
+          $("body").css("background-color", "blanchedalmond");
+        });
+
+
+        $("#changeDarkSalmon").click(function(){
+          $("body").css("background-color", "darksalmon");
+        });
+
+        $("#item1").mouseenter(function(){
+          $("#changeText").html("hey");
+        });
+
+        $("#item2").mouseenter(function(){
+          $("#changeText").html("<strong>this is bold</strong>");
+        });
+
+        $("#item3").mouseenter(function(){
+          $("#changeText").html("<img src='https://live.staticflickr.com/2541/4023787524_331f5f7419_b.jpg' alt='image1'>");
+        });
+
+        $("#item1").mouseleave(function(){
+          $("#changeText").html("");
+        });
+
+        $(".item").mouseleave(function(){
+          $("#changeText").html("");
+        });
+
+        });
+
+</script>
+</body>
+</html>
