@@ -1,0 +1,150 @@
+header{
+  background-color: blanchedalmond;
+  width: 910px;
+  height: auto;
+
+  padding: 15px;
+
+  border-width: 10px 5px 10px 5px;
+  border-style: solid;
+  border-color: black;
+
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin: 0 auto;
+  margin-top: 7px;
+}
+main{
+  background-color: darksalmon;
+  width: 910px;
+  height: auto;
+
+  padding: 15px;
+
+  border-width: 10px 5px 10px 5px;
+  border-style: solid;
+  border-color: black;
+
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+}
+footer{
+  background-color: salmon;
+  width: 910px;
+  height: auto;
+
+  padding: 15px;
+
+  border-width: 10px 5px 10px 5px;
+  border-style: solid;
+  border-color: black;
+
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+}
+
+nav{
+  background-color: tan;
+  width: 382px;
+
+  border-style: solid;
+  border-color: black;
+  border-width: 5px 3px 5px 3px;
+
+  margin: 0 auto;
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-right: 30px;
+  padding: 2px;
+}
+
+nav ul li a{
+    color: blue;
+    text-decoration: none;
+}
+
+nav ul li:hover{
+    background-color: grey;
+}
+
+
+#grid1{
+  width: 850px;
+  height: auto;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: 320px;
+  grid-template-columns: 390px 390px;
+  grid-column-gap: 20 px;
+  text-align: justify;
+}
+
+#grid1 img{
+  width: 300px;
+  margin: 0 auto;
+  display: block;
+  padding: 20px;
+}
+
+#grid3{
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 2fr;
+  grid-column-gap: 20 px;
+  text-align: justify;
+  padding-right: 20px;
+  background-color: blanchedalmond;
+  border-style: solid;
+  border-color: black;
+  border-width: 5px 3px 5px 3px;
+}
+
+#grid3 img{
+  width: 300px;
+  margin: 0 auto;
+  display: block;
+  padding: 20px;
+}
+
+#grid5{
+  text-align: center;
+  text-align: justify;
+}
+
+#top{
+  background-color: darksalmon;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px 1px 1px 1px;
+}
+
+#grid6{
+  background-color: blanchedalmond;
+  border-style: solid;
+  border-color: black;
+  border-width: 5px 3px 5px 3px;
+  padding-left: 5px;
+
+}
+
+#centerName{
+  text-align: center;
+}
+
+
+
+#alignContact{
+  text-align: right;
+}

@@ -1,0 +1,22 @@
+@import "desktop2.css";
+
+header{
+  width: 380px;
+}
+main{
+  width: 380px;
+}
+footer{
+  width: 380px;
+}
+nav ul li{
+  display: block;
+  text-align: center;
+}
+#grid1, #grid2, #grid3, #grid4{
+  width: 380px;
+  display: block;
+}
+#grid3 img{
+  width: 300px;
+}
