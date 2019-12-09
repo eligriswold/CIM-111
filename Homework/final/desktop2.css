@@ -104,7 +104,7 @@ nav ul li:hover{
   grid-template-columns: 1fr 2fr;
   grid-column-gap: 20 px;
   text-align: justify;
-  padding-right: 20px;
+  padding-right: 15px;
   background-color: blanchedalmond;
   border-style: solid;
   border-color: black;
