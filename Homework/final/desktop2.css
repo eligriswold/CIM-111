@@ -104,7 +104,7 @@ nav ul li:hover{
   grid-template-columns: 1fr 2fr;
   grid-column-gap: 20 px;
   text-align: justify;
-  padding-right: 15px;
+  padding-right: 10px;
   background-color: blanchedalmond;
   border-style: solid;
   border-color: black;
@@ -131,11 +131,16 @@ nav ul li:hover{
 }
 
 #grid6{
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  display: grid;
   background-color: blanchedalmond;
   border-style: solid;
   border-color: black;
   border-width: 5px 3px 5px 3px;
   padding-left: 5px;
+
 
 }
 
